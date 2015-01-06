@@ -1,0 +1,8 @@
+<?php
+
+interface MongoLanternQueryParserInterface {
+	public function Parse($keyword);
+	public function setQueryTerm($keyword);
+	public function setSubqueryTerm($field, $value);
+	public function setRange($field, $start, $end);
+}

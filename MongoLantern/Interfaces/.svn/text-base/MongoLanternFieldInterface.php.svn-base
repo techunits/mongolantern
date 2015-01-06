@@ -1,0 +1,9 @@
+<?php
+
+interface MongoLanternFieldInterface {
+	public static function Keyword($field, $value);
+	public static function Text($field, $value);
+	public static function UnIndexed($field, $value);
+	public static function UnStored($field, $value);
+	public static function Binary($field, $value);
+}

@@ -1,0 +1,12 @@
+<?php
+
+interface MongoLanternIndexerInterface {
+	public function setFields($fields);
+	public function setDocument($uniqueDocID, $document);
+	public function Commit();
+	public function Optimize();
+	public function totalDocs();
+	public function validateDocumentID($docID);
+	public function dropFieldIndex($field);
+	public function removeDocument($document_id, $options = array());
+}

@@ -1,0 +1,17 @@
+<?php
+
+interface MongoLanternQueryInterface {
+	public function setQuery($keyword);
+	public function setRangeQuery($field, $start, $end);
+	public function setFieldQuery($queryParam);
+	public function setMatchMode($mode = 'BESTMATCH');
+	public function setSortMode($mode = 'CREATED');
+	public function setIntelligentQueryMode($flag = true);
+	public function setQueryFields($fields);
+	public function setLimit($limit = 25);
+	public function setSkip($skip);
+	public function Execute($limit = 25);
+	public function getStats();
+	public function getSuggestion();
+	public function Clear();
+}

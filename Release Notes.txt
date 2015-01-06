@@ -1,0 +1,4 @@
+MongoLantern 1.0:
+================
+
+1.  Aspell Spell Correction added with custom dictionary support.

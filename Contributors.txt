@@ -1,0 +1,17 @@
+Development Team:
+================
+
+1.  Sougata Pal.
+2.  Subrata Bhadury.
+3.  Subhajit Mukherjee.
+
+
+Reviews & Feedback:
+==================
+
+1.  Markku Nikkanen (CEO, Trivian)
+2.  Stephen Kelbrick (CEO, Buzzers.co.za)
+3.  ProdigyView (contact@prodigyview.com)
+
+
+Note: We will love to accept reviews & reports from more users to make MongoLantern more efficient.
